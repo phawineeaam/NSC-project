@@ -41,6 +41,7 @@
 [ext_resource type="FontFile" uid="uid://b4an04vi7vvuw" path="res://Assets/UI/Ui/Font/NormalFont.ttf" id="38_sy3ap"]
 [ext_resource type="Texture2D" uid="uid://bm2wxbsph0lca" path="res://Assets/UI/Ui/Receptacle/Receptacle Sphere/ProgressYellow.png" id="39_gwvtb"]
 [ext_resource type="Texture2D" uid="uid://dt7qck0tvfdax" path="res://Assets/UI/game mainmenu.png" id="40_qopfv"]
+[ext_resource type="AudioStream" uid="uid://d0wyw72o8ckfw" path="res://Assets/Audio/Musics/20 - Good Time.ogg" id="42_pwt5m"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_o5y0u"]
 texture = ExtResource("1_11etf")
@@ -17692,3 +17693,7 @@ vertical_alignment = 1
 position = Vector2(261, 77.00001)
 scale = Vector2(0.25965744, 0.27550283)
 texture = ExtResource("40_qopfv")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=578873465]
+stream = ExtResource("42_pwt5m")
+autoplay = true
