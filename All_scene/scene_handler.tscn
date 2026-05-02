@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://b2i3qxngdya3l"]
+
+[ext_resource type="Script" uid="uid://c2iyiiqjmoolh" path="res://scene_handler.gd" id="1_5ka82"]
+[ext_resource type="PackedScene" uid="uid://biewnh4m2jugn" path="res://All_scene/homepage.tscn" id="2_8vptw"]
+
+[node name="SceneHandler" type="Node" unique_id=1884791852]
+script = ExtResource("1_5ka82")
+homepage_packed = ExtResource("2_8vptw")
